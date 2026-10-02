@@ -1650,66 +1650,37 @@ footer p {
 
   /* HERO */
 
-  .hero {
+.hero {
+  min-height: 42vh;
+  padding: 10px 8px;
+}
 
-    min-height:
-      50vh;
+.hero-content {
+  width: 82%;
+  max-width: 280px;
 
-    padding:
-      14px 8px;
-  }
+  padding: 8px 10px 9px;
 
+  transform: translateY(-35px);
 
-  .hero-content {
+  border-width: 3px;
+  border-radius: 10px;
+}
 
-    width:
-      88%;
+.hero-subtitle {
+  font-size: 5px;
+  letter-spacing: 0.7px;
+}
 
-    max-width:
-      300px;
+.hero h1 {
+  margin: 3px 0 2px;
+  font-size: 17px;
+}
 
-    padding:
-      9px 10px 10px;
-
-    border-width:
-      3px;
-
-    border-radius:
-      11px;
-
-    transform:
-      translateY(-55px);
-  }
-
-
-  .hero-subtitle {
-
-    font-size:
-      6px;
-
-    letter-spacing:
-      0.8px;
-  }
-
-
-  .hero h1 {
-
-    margin:
-      4px 0 3px;
-
-    font-size:
-      19px;
-  }
-
-
-  .hero p {
-
-    margin:
-      3px 0 0;
-
-    font-size:
-      8px;
-  }
+.hero p {
+  margin: 2px 0 0;
+  font-size: 7px;
+}
 
 
   /* HOME */
