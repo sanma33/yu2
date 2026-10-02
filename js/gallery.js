@@ -1,21 +1,21 @@
 const photos = [
   {
     src: "images/photo01.jpg",
-    title: "夕暮れ",
-    description: "夕方に撮影した一枚。",
-    category: "landscape"
+    title: "いぬ",
+    description: "かわいすぎるイヌ。",
+    category: "play"
   },
   {
     src: "images/photo02.jpg",
-    title: "街の風景",
-    description: "街を歩いている途中で撮影しました。",
-    category: "city"
+    title: "犬2号",
+    description: "なまえはおそらくポチ",
+    category: "event"
   },
   {
     src: "images/photo03.jpg",
-    title: "お気に入り",
-    description: "個人的に気に入っている写真です。",
-    category: "other"
+    title: "スパワールドの",
+    description: "有名なお風呂です。",
+    category: "art"
   }
 ];
 
