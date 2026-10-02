@@ -975,7 +975,7 @@ nav a:hover {
 ========================================================= */
 
 footer {
-  padding: 34px 20px;
+  padding: 16px 20px;
 
   color: white;
 
@@ -988,7 +988,7 @@ footer {
 
   text-align: center;
 
-  font-size: 13px;
+  font-size: 12px;
 }
 
 footer p {
@@ -1074,14 +1074,16 @@ footer p {
   ------------------------- */
 
   .hero {
-    min-height: 50vh;
+  min-height: 0;
+  height: 34vh;
 
-    padding: 14px 8px;
-  }
+  padding: 0;
+}
 
-  .hero-photo {
-    background-position: center center;
-  }
+.hero-photo {
+  background-position: center center;
+  background-size: cover;
+}
 
   .hero-content {
     width: 92%;
