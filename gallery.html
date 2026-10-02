@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    ギャラリー | ゆったまり
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css?v=5"
+  >
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="header-inner">
+
+      <div class="site-logo">
+        <img
+          src="images/logo.png"
+          alt="SPAWORLD HOTEL & RESORT"
+        >
+      </div>
+
+      <!-- GALLERYなのでGALLERYは表示しない -->
+
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="toys.html">TOYS</a>
+        <a href="event.html">EVENT</a>
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main class="gallery-page">
+
+    <section class="page-title">
+
+      <p>
+        PHOTO COLLECTION
+      </p>
+
+      <h1>
+        Gallery
+      </h1>
+
+      <div class="page-title-line"></div>
+
+      <p class="page-description">
+        ゆったまりでの楽しいひとときを
+        写真でご紹介します。
+      </p>
+
+    </section>
+
+
+    <div class="category-buttons">
+
+      <button data-category="all">
+        ALL
+      </button>
+
+      <button data-category="landscape">
+        風景
+      </button>
+
+      <button data-category="city">
+        遊んでいる様子
+      </button>
+
+      <button data-category="other">
+        その他
+      </button>
+
+    </div>
+
+
+    <section
+      id="gallery"
+      class="gallery-grid"
+    ></section>
+
+  </main>
+
+
+  <!-- 拡大表示 -->
+
+  <div
+    id="modal"
+    class="modal"
+  >
+
+    <button
+      id="modal-close"
+      class="modal-close"
+    >
+      ×
+    </button>
+
+    <div class="modal-content">
+
+      <img
+        id="modal-image"
+        src=""
+        alt=""
+      >
+
+      <div class="modal-text">
+
+        <h2 id="modal-title"></h2>
+
+        <p id="modal-description"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <footer>
+    <p>
+      © 2026 ゆったまり
+    </p>
+  </footer>
+
+
+  <script src="js/gallery.js"></script>
+
+</body>
+
+</html>
